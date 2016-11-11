@@ -34,7 +34,7 @@ p                               {margin: 0; padding: 0 20px 20px;
                                     and other UI ("Bitstream Vera Sans Mono"), but a normal-looking Arial-like for the post text */
                                  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", "Terminal", monospace}
 
-a                               {color: #2222; text-decoration: none; font-weight: bold;}
+a                               {  color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); text-decoration: none;}
 a:hover                         {color: #666; text-decoration: underline;}
 
 nav a {
@@ -134,7 +134,7 @@ input[type=search]:focus        {outline: none;}
 
 /* 'Add' / 'Reply' and 'RSS' buttons */
 #nnf_add, #nnf_reply, #nnf_rss  {float: right; margin-left: 20px; padding-left: 25px;
-                                 text-align: right; text-transform: uppercase; color: #2222 !important;}
+                                 text-align: right; text-transform: uppercase; color: #b5e853 !important;}
 #nnf_add, #nnf_reply            {background: url("img/add.png") no-repeat 0 50%; background-size: 16px 16px;}
 #nnf_rss                        {background: url("img/rss.png") no-repeat 0 50%; background-size: 16px 16px;}
 
@@ -160,8 +160,7 @@ input[type=search]:focus        {outline: none;}
 
 /* index page
    ====================================================================================================================== */
-section                         {clear: both; margin: 0 0 20px; color: #2222;
-                                 background: #f7f6f7;}
+section                         {clear: both; margin: 0 0 20px; background: #f7f6f7;}
 section h1                      {background: #222 none no-repeat 15px 15px;}
 
 /* page list */
@@ -300,8 +299,7 @@ form                            {position: relative; /*< for the benefit of IE6/
 
 input, textarea                 {font: 16px/20px Monaco, "Liberation Sans", "Trebuchet MS", sans-serif;}
 
-label                           {display: block; height: 40px; padding: 0 20px; line-height: 40px; color: #2222;
-                                 cursor: pointer;}
+label                           {display: block; height: 40px; padding: 0 20px; line-height: 40px; cursor: pointer;}
 
 form p                          {padding: 0; color: #888;}
 .ok, .error, #protip            {padding: 20px 20px 0 !important;}
