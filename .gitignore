@@ -27,3 +27,9 @@
 !INSTALL.txt
 !LICENCE.txt
 !README.txt
+
+!*.rss
+!mods.txt
+!spam\ and\ test/
+!Seeking\ Advice/
+!config.php
